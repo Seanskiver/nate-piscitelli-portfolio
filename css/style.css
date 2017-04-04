@@ -1,0 +1,185 @@
+/******************* FONT */
+@font-face {
+    font-family: futuraLight;
+    src: url(../fonts/FuturaLight.ttf)
+}
+
+
+body, html {
+    background-color: #565757;    
+    overflow-x: hidden;
+    font-family: futuraLight;
+}
+
+
+#profile-pic {
+    padding: 0;
+    height: 500px;
+}
+
+#name {
+    margin-top: 150px;
+    font-size: 4.2em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caps {
+    font-size: 1.5em;    
+}
+
+#name_subtext {
+    font-size: 2.5em;
+    color: #fed136;
+}
+
+#info-list {
+    margin-top: 150px;
+    margin-right: 50px;
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    color: white;
+    font-size: 1.75em;
+}
+
+#info-list>li {
+    margin-bottom: 20px;
+}
+
+#info-list>li>a>i {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;  
+    margin-left: 5px;
+}
+
+#info-list>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/********************************* ABOUT *****************************/
+.heading-text {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+#about {
+ margin-top: 15px;   
+ padding: 0 !important;
+}
+
+#about {
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#about-p {
+    font-size: 20px;
+}
+
+
+
+/************************************* NAV  */
+
+
+
+/*MEDIA QUERIES*/
+@media(max-width: 950px) {
+    #name {
+        margin-top: 150px;
+        font-size: 3em;
+        color: white;
+        min-height: 0;
+    }
+    
+    #name_subtext {
+        font-size: 2em;
+    }    
+    
+}
+
+@media(max-width: 775px) {
+    #name {
+        margin-top: 150px;
+        font-size: 4em;
+        color: white;
+    }
+    
+    #name_subtext {
+        font-size: 1.5em;
+        color: #fed136;
+    }
+    
+    
+}
+
+
+@media(max-width: 767px) {
+    #name {
+        font-size: 4em;
+        color: white;
+    }
+
+    #info-list {
+        margin-right: 50px;
+        list-style-type: none;
+        color: white;
+        font-size: 1.5em;
+        margin-left: 50px;
+        margin-top: auto;
+        margin-right: auto;
+    }
+    
+    #info-list>li {
+        float: left;
+        margin-right: 20px;
+    }
+    
+    #info-list>li>a>i {
+        color: white;
+        text-decoration: none;
+        font-size: 1.25em;  
+    }
+    
+}
+
+@media(max-width: 767px) {
+    #name {
+        font-size: 2.5em;
+        color: white;
+    }
+    
+    #name_subtext {
+        font-size: 1.5em;
+        border-bottom: 1px solid white;
+        padding-bottom: 5px;
+        margin-bottom: 0;
+    }
+    
+    #info-list>li>a>i {
+        color: white;
+        text-decoration: none;
+        font-size: 1.1em; 
+        text-align: center;
+    } 
+    
+    #info-list {
+        margin-right: 50px;
+        padding-top: 5px;
+        list-style-type: none;
+        color: white;
+        font-size: 1.4em;
+        margin-left: 50px;
+        margin-top: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    
+}
+

@@ -1,0 +1,248 @@
+#nav {
+    background-color: #333; 
+    min-height: 1700px;
+    padding: 0;  
+}
+
+#vert-nav {
+    list-style-type: none;
+    /*margin: auto;    */
+    margin-top: 40px;
+    width: 8em;
+
+    position: relative;
+    z-index: 3;
+
+    
+
+}
+
+#vert-nav li {
+  width: 2em !important;
+  height: 2em;
+  text-align: center;
+  line-height: 2.1em !important;
+  border-radius: 2em !important;
+  background: white;
+  border: 2px solid white;
+  /*margin: 2.5em auto;*/
+  margin-bottom: 1em;
+  color: white;
+  background-color: #333;
+  position: relative;
+  font-size: 2em;
+  z-index: 1;
+}
+
+
+#vert-nav li:last-child {
+  margin-bottom: 0;
+}
+
+#vert-nav .active {
+    border: 3px solid #fed136 !important;
+    color: #fed136 !important;
+}
+
+
+#vert-nav>li::after{
+  content: '';
+  position: absolute;
+  top: 1.9em;
+  width: .08em;
+  left: .9em;
+  height: 2em;
+  background: white;
+  z-index: -1;
+}
+
+
+
+#vert-nav>li:last-child::after {
+  display: none !important;
+
+}
+
+
+/*********************** MEDIA QUERIES */
+@media(max-width: 991px) {
+    #nav {
+      min-height: 0;
+      width: 100%;
+    }
+  
+    #vert-nav {
+        margin: auto;
+        position: relative;
+        min-height: 20px;
+        width: 80%;
+        height: 100%;
+    }
+    
+    #vert-nav li {
+      width: 1.5em !important;
+      height: 1.5em;
+      text-align: center;
+      line-height: 1.5em !important;
+      border-radius: 1.5em !important;
+      background: white;
+      border: 3px solid white;
+      /*margin: 1em 0;*/
+      /*margin: 20px ;*/
+      margin-top: .6em;
+      margin-left: 12%;
+      color: white;
+      background-color: #333;
+      position: relative;
+      display: inline-block;
+      font-size: 2em;
+      display: inline-block;
+      z-index: 4;
+    }
+    
+    
+    #vert-nav li::before{
+      content: '';
+      position: absolute;
+      top: .67em;
+      left: -3.5em;
+      width: 3.5em;
+      height: .1em;
+      background: white;
+      z-index: -2;
+    }
+    
+    #vert-nav li::after {
+        display: none;
+    }
+    
+    #vert-nav li:first-child::before {
+        display: none;
+    }
+    
+
+
+    #nav {
+         height: 75px;
+    }
+
+    
+}
+
+@media(max-width: 740px) {
+      #vert-nav {
+        margin: auto;
+        position: relative;
+        min-height: 20px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+@media(max-width: 595px) {
+    #vert-nav li {
+      margin-left: 10%;
+    }
+    #vert-nav li::before{
+      left: -2.4em;
+      width: 2.4em;
+    }
+    
+}
+
+
+@media(max-width: 500px) {
+      #vert-nav {
+        margin: auto;
+        position: relative;
+        min-height: 20px;
+        width: 100%;
+    }
+    
+    #vert-nav li {
+      width: 1.5em !important;
+      height: 1.5em;
+      text-align: center;
+      line-height: 1.5em !important;
+      border-radius: 1.5em !important;
+      background: white;
+      border: 2px solid white;
+      /*margin: 1em 0;*/
+      /*margin: 20px ;*/
+      margin-top: 1em;
+      margin-left: 10%;
+      color: white;
+      background-color: #333;
+      position: relative;
+      display: inline-block;
+      font-size: 1.5em;
+      display: inline-block;
+      z-index: 4;
+    }
+    
+    #vert-nav li::before{
+      content: '';
+      position: absolute;
+      top: .67em;
+      left: -2.2em;
+      width: 2.2em;
+      height: .1em;
+      background: white;
+      z-index: -2;
+    }    
+    
+}
+
+
+@media(max-width: 394px) {
+  #nav {
+    padding-left: 0;
+    padding-right: 0;  
+  }
+  
+  #vert-nav {
+    width: 85%;
+    margin: auto;
+  }
+  
+  #vert-nav li {
+    width: 1.5em !important;
+    height: 1.5em;
+    text-align: center;
+    line-height: 1.5em !important;
+    border-radius: 1.5em !important;
+    background: white;
+    border: 2px solid white;
+    /*margin: 1em 0;*/
+    /*margin: 20px ;*/
+    margin-top: 1em;
+    margin-left: 10%;
+    color: white;
+    background-color: #333;
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    display: inline-block;
+    z-index: 4;
+  }
+  
+  #vert-nav li::before{
+    content: '';
+    position: absolute;
+    top: .67em;
+    left: -1.8em;
+    width: 1.8em;
+    height: .1em;
+    background: white;
+    z-index: -2;
+  }    
+  
+  
+  #vert-nav li:first-child {
+    margin-left: 0;
+  }  
+  
+  
+} 

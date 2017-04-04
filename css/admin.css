@@ -1,0 +1,117 @@
+#admin-header {
+    color: black;
+    font-weight: bold;
+}
+
+#page-main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+#form-container {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 5%;
+}
+
+#add-skill-header {
+    margin-bottom: 35px;
+}
+
+#admin-skills {
+    background-color: #fff;
+}
+
+.heading-text {
+    display: inline;
+}
+
+
+.btn-edit {
+    font-size: .5em;
+    display: inline;
+    top: 1px;
+}
+
+.btn-edit:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.add-skill {
+    font-size: 1.2em;
+    color: black;
+    height: 50px;
+    cursor: pointer;
+}
+
+#add-skill-container {
+    margin-top: 35px;
+}
+
+.td-delete {
+    width: 40px;
+    text-align: right;
+    vertical-align: middle;
+    height: 2em;
+    line-height: .7em;
+}
+
+.skill-delete {
+    cursor: pointer;
+    display: none;
+}
+
+.skill-delete:hover {
+    color: black;
+}
+
+#edit-mode-container {
+    position: absolute;    
+    right: 25px;
+    top: 10px;
+    
+    height: 75px;
+    width: 160px;
+    background-color: black;
+    opacity: .9;
+    
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    border-radius: 5px;
+    z-index: 99999;
+}
+
+#edit-mode-text {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 20px;
+    line-height: 35px;
+}
+
+#lnk-logout {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;    
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+/*LOGIN FORM*/
+#form-cont {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    background-color: white !important;
+}
+
+#form-column {
+    margin-top: 120px;
+}

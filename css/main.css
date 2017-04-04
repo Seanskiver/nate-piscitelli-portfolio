@@ -1,0 +1,145 @@
+body, html {
+  /*background-color: white !important;*/
+}
+
+#navbar {
+  background-color: #333;
+  border-top: 1px solid #fed136;
+}
+
+#nav-list>li>a {
+  color: white;
+  font-size: 1.25em;
+}
+
+#nav-list>li>a:hover {
+  color: #fed136;
+}
+
+#main-wrapper {
+  background-color: white; }
+
+.tbl-skills {
+  font-size: 1.5em; }
+  .tbl-skills .skill-label {
+    height: 2em;
+    min-width: 55%;
+    width: 55%; }
+
+.skills-bubble-lst {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+.skills-bubble {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 12px;
+  height: 12px; }
+
+.skills-bubble-filled {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: black;
+}
+
+.skillbar-td {
+  min-width: 180px; }
+
+.skillbar-container {
+  background-color: #e3e3e3;
+  min-width: 180px;
+  min-height: 5px; }
+
+.skillbar {
+  width: 2%;
+  min-height: 20px;
+  background-color: #4d4d4d; }
+
+@media (max-width: 375px) {
+  .skill-label {
+    width: 20%; }
+
+  .skills-bubble {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    margin-left: -4px; } }
+
+/*# sourceMappingURL=main.css.map */
+
+
+
+#controls {
+    width: 15%;
+    margin:auto;
+    
+
+}
+
+    #next {
+        float: right;
+        display: inline-block;
+    }
+    
+    #previous {
+        float: left;
+        display: inline-block;
+    }
+    
+    
+    
+.port-img {
+  max-width: 100%;
+}
+
+.book-control {
+  height: 504px;
+  line-height: 504px;
+  text-align: center;
+  /*background-color: black;*/
+  color: white;
+  padding: 0;
+  font-size: 1.5em;
+  
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #212121 , white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, #212121 , white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, #212121 , white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to (left, #212121 , white); /* Standard syntax */
+}
+
+
+#flipbook-container {
+  padding: 0 !important;
+  margin-right: 10px !important;
+}
+
+
+.heading-text {
+  display: inline-block;
+}
+
+
+.btn-edit {
+  margin-top: 15px;
+  line-height: 2em;
+}
+
+section {
+  margin-top: 40px !important;
+}
+
+
+#mailForm-container {
+  
+}
+
+
+#mail-submit {
+  font-weight: bold;
+}

@@ -1,0 +1,6 @@
+TODO:
+    1. Fix Navigation
+    2. Make navbar sticky
+    3. Get mail server working
+    4. Build mail form s
+    5. Add TinyMCE

@@ -1,0 +1,47 @@
+#main-wrapper {
+  background-color: white; }
+
+.tbl-skills {
+  font-size: 1.5em; }
+  .tbl-skills .skill-label {
+    height: 2em;
+    min-width: 55%;
+    width: 55%; }
+
+.skills-bubble-lst {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+.skills-bubble {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 12px;
+  height: 12px; }
+
+.skillbar-td {
+  min-width: 180px; }
+
+.skillbar-container {
+  background-color: #e3e3e3;
+  min-width: 180px;
+  min-height: 5px; }
+
+.skillbar {
+  width: 2%;
+  min-height: 20px;
+  background-color: #4d4d4d; }
+
+@media (max-width: 375px) {
+  .skill-label {
+    width: 20%; }
+
+  .skills-bubble {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    margin-left: -4px; } }
+/***************** PORTFOLIO */
+
+/*# sourceMappingURL=main.css.map */

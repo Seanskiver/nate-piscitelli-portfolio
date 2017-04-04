@@ -1,0 +1,8 @@
+#form_about {
+    display: none;
+}
+
+#form_about > button {
+    margin-top: 15px;
+    float: right;
+}
