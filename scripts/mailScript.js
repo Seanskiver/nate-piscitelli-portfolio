@@ -20,6 +20,7 @@ $('#mailForm').submit(function(e) {
         data: formData,
         success: function(data) {
             console.log(data);
+            SuccessAnimation();
         },
         error: function(request, status, err) {
             console.log(request.responseText);
@@ -34,6 +35,12 @@ $('#mailForm').submit(function(e) {
             $('#err-'+prop).html(err[prop]);
         }
     }
-
 });
 
+
+function SuccessAnimation() {
+    $('#successMessage').css('visibility', 'visible');
+    window.setTimeout(function() {
+        $('#successMessage').fadeOut();
+    });
+}

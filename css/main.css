@@ -143,3 +143,15 @@ section {
 #mail-submit {
   font-weight: bold;
 }
+
+#valid {
+  min-height: 100%;
+  position: absolute;
+}
+
+#OK-container {
+  background-color: green;
+  color: white;
+
+}
+

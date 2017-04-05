@@ -1,9 +1,8 @@
 var totalHeight = 0;
 var lastSectionHeight = $( $('.mainSect')[ $('.mainSect').length-1 ] ).height();
-console.log(lastSectionHeight);
+
 $('.mainSect').each(function (index, sect) {
     totalHeight += $(sect).height();
-    // console.log(totalHeight + 100);
 });
     
 
@@ -30,11 +29,6 @@ $(window).scroll(function() {
         var top = $(sect).offset().top - tolerance;
         var bottom = $(sect).offset().top + $(sect).height() - tolerance;
 
-        // console.log('height: ' + $('body').height());
-        console.log('scrollTop: ' + $(window).scrollTop());
-        
-
-        
         if ( scrollTop >= top && scrollTop <= bottom ) {
             $('a[href="#'+$(sect).attr('id')+'"]').css({color: '#fed136'});
         } else {

@@ -30,11 +30,13 @@
 
         <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <input type="submit" class="btn btn-success" id="mail-submit" value="Send Message"/>    
+            <b id="successMessage">Message sent successfully&nbsp;<i class="glyphicon glyphicon-ok"></i></b>
         </div>
         
     </form>
-    
 </section>
+
+
 
 
 <p class="err" id="err-mail"></p>

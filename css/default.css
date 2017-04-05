@@ -269,6 +269,10 @@ a img {
 	background: #fffbd6;
 }
 
+#successMessage {
+  color: green;
+  visibility: hidden;
+}
 
 @media screen and (max-width: 46.0625em) {
 	.column {
